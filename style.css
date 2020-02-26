@@ -660,8 +660,10 @@ a {
     text-transform: uppercase;
 }
 
-.img-map {
-    display: block;
+.footer-right-map {
+    background-image: url(img/footermap.png);
+    height: 425px;
+    width: 960px;
 }
 
 .design-studio {
