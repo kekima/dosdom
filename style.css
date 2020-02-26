@@ -1,5 +1,8 @@
+
+
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
 a {
@@ -47,6 +50,10 @@ a {
     color: #4E9100;
 }
 
+.phone-link {
+    color: #4E9100;
+}
+
 .address-header {
     font-size: 14px;
     line-height: 20px;
@@ -88,7 +95,7 @@ a {
 .banner-logo {
     display: flex;
     justify-content: flex-end;
-    padding-top: 44px;
+    margin-top: 44px;
 }
 
 .banner-descr {
