@@ -788,3 +788,7 @@ a {
     color: #FFFFFF;
     margin-top: 50px;
 }
+
+.modal-button-trigger {
+    cursor: pointer;
+}
