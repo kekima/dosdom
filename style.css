@@ -418,17 +418,18 @@ a {
     margin: 0px;
 }
 
-.review-items-box {
-    height: 310px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .direction-circle {
     width: 36px;
     height: 36px;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
+}
+
+.navigation-keys-and-reviews {
+    margin-left: 80px;
+    width: 1450px; /*1428*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle-left {
@@ -440,11 +441,14 @@ a {
 }
 
 .review-item-desc-and-button {
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .review-item {
+    height: 310px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -461,6 +465,7 @@ a {
 }
 
 .review-text-box {
+    width: 1100px;
     margin-left: 30px;
 }
 
@@ -728,7 +733,6 @@ a {
     background-color: rgba(70, 129, 1, 0.75);
 }
 
-
 .modal-content {
     position: relative;
     margin: auto;
@@ -753,7 +757,7 @@ a {
     to {top:0; opacity:1}
   }
   
-  @keyframes animatetop {
+ @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
   }
