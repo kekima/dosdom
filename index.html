@@ -8,6 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+
 </head>
 
 <body>
@@ -137,7 +140,7 @@
                                 отделке.
                             </p>
                         </div>
-                            <div class="testimony-button modal-button-trigger">Заказать звонок</div>
+                        <div class="testimony-button modal-button-trigger">Заказать звонок</div>
                     </div>
                     <div class="testimony-option">
                         <div class="testimony-title">
@@ -157,7 +160,7 @@
                                 сметчики. Бригады сформированы из специалистов своего профиля.
                             </p>
                         </div>
-                            <div class="testimony-button modal-button-trigger">Заказать звонок</div>
+                        <div class="testimony-button modal-button-trigger">Заказать звонок</div>
                     </div>
                     <div class="testimony-option">
                         <div class="testimony-title">
@@ -178,7 +181,7 @@
                                 бесплатно.
                             </p>
                         </div>
-                            <div class="testimony-button modal-button-trigger">Узнать подробнее</div>
+                        <div class="testimony-button modal-button-trigger">Узнать подробнее</div>
                     </div>
                     <div class="testimony-option">
                         <div class="testimony-title">
@@ -197,7 +200,7 @@
                                 клиента и ландшафт местности, выбранного вами участка.
                             </p>
                         </div>
-                            <div class="testimony-button modal-button-trigger">Начать стройку!</div>
+                        <div class="testimony-button modal-button-trigger">Начать стройку!</div>
                     </div>
                 </div>
             </div>
@@ -216,26 +219,31 @@
             </div>
             <div class="container1920 reviews-box">
                 <p class="reviews-title">Отзывы</p>
-                <div class="review-items-box">
-                    <a href="#">
-                        <div class="direction-circle circle-left"></div>
-                    </a>
-                    <div class="review-item">
-                        <div class="review-photo"></div>
-                        <div class="review-text-box">
-                            <div class="review-name">Мария. Проект Оптима. Уфа.</div>
-                            <div class="review-text">Желание появилось еще лет 15 назад, когда я купил этот участок со
-                                старым домиком, но домик этот оказался каким-то на удивление уютным, и мы с женой
-                                оттягивали момент расставания насколько возможно. Латентная фаза сменилась активной в
-                                начале прошлого года, когда после очередной зимы встал вопрос: либо серьезно
-                                вкладываться в старый домик, либо решать проблему радикально. Победил второй вариант, и
-                                не в последнюю очередь потому, что годы идут, и чем дальше, тем ленивее было бы
-                                заниматься светопреставлением под названием «стройка» во всех его ипостасях...</div>
+                <div class="owl-carousel">
+                    <div class="review-items-box">
+                        <a href="#">
+                            <div class="direction-circle circle-left"></div>
+                        </a>
+                        <div class="review-item">
+                            <div class="review-photo"></div>
+                            <div class="review-text-box">
+                                <div class="review-name">Мария. Проект Оптима. Уфа.</div>
+                                <div class="review-text">Желание появилось еще лет 15 назад, когда я купил этот участок
+                                    со
+                                    старым домиком, но домик этот оказался каким-то на удивление уютным, и мы с женой
+                                    оттягивали момент расставания насколько возможно. Латентная фаза сменилась активной
+                                    в
+                                    начале прошлого года, когда после очередной зимы встал вопрос: либо серьезно
+                                    вкладываться в старый домик, либо решать проблему радикально. Победил второй
+                                    вариант, и
+                                    не в последнюю очередь потому, что годы идут, и чем дальше, тем ленивее было бы
+                                    заниматься светопреставлением под названием «стройка» во всех его ипостасях...</div>
+                            </div>
                         </div>
+                        <a href="#">
+                            <div class="direction-circle circle-right"></div>
+                        </a>
                     </div>
-                    <a href="#">
-                        <div class="direction-circle circle-right"></div>
-                    </a>
                 </div>
                 <div class="review-learnmore">
                     <a class="button-review-learnmore" href="#">Узнать подробнее</a>
@@ -357,21 +365,32 @@
                         <div class="button-order-call modal-button-trigger">Заказать звонок</div>
                     </div>
                 </div>
-                <div class="footer-right-second-part">                    
+                <div class="footer-right-second-part">
                     <div class="design-studio">
                         <div class="design-studio-container">
                             <p class="address-header">Designed by&nbsp;</p>
-                        <div class="design-studio-logo">
-                            <a href="#"><img src="img/uleu.png" alt="ULEU"></a>
+                            <div class="design-studio-logo">
+                                <a href="#"><img src="img/uleu.png" alt="ULEU"></a>
+                            </div>
+                            <p class="design-studio-year">2020</p>
                         </div>
-                        <p class="design-studio-year">2020</p>
                     </div>
-                    </div><div>
+                    <div>
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./owlcarousel/jquery.min.js"></script>
+    <script src="./owlcarousel/owl.carousel.min.js"></script>
+    <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items:1,
+})
+    </script>
 </body>
 
 </html>
