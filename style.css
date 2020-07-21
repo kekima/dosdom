@@ -146,14 +146,13 @@ a {
     display: flex;
     align-items: center;
     padding: 8px 30px;
-    margin-bottom: 30px;
+    margin-bottom: 71px;
 }
 
 .our-projects-bg {
-    height: 900px;
     width: 1465px;
     margin: 0 auto;
-    background-image: url(img/paper.png);
+    background-image: url(img/projbg.jpg);
     background-repeat: no-repeat;
 }
 
@@ -192,8 +191,10 @@ a {
 }
 
 .our-projects-plans {
-    width: 1350px;
-    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+    margin-top: 35px;
 }
 
 .our-projects-announce-text {
@@ -203,18 +204,23 @@ a {
     text-transform: uppercase;
     color: #000000;
     padding: 20px 0 30px 0;
+    text-align: center;
 }
 
 .project-types {
+    margin-left: 60px;
+    margin: 0 auto;
+    width: 1110px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .project-option {
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 382px;
     background: #FFFFFF;
     border-radius: 15px;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
@@ -228,7 +234,7 @@ a {
     height: 40px;
     background: #F8AA12;
     border-radius: 10px;
-    margin-top: -20px;
+    margin: 20px 0 40px 0;
 }
 
 .project-type-name-text {
@@ -239,11 +245,15 @@ a {
     color: #000000;
 }
 
-.project-type-price-text {
+.proj-slider-house-type-img {
+    
+}
+
+.project-type-area-text {
     font-weight: bold;
-    font-size: 34px;
-    line-height: 30px;
-    margin: 20px 0 0 0;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 40px 0 0 0;
     letter-spacing: 0.015em;
     text-transform: uppercase;
     color: #000000;
@@ -258,9 +268,64 @@ a {
     color: #000000;
 }
 
+.proj-descr-container {
+    width: 1114px;
+    height: 382px;
+    margin: 35px 0 75px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    display: flex;
+}
+
+.proj-descr-img {
+    width: 488px;
+    height: 345px;
+    margin: 20px 0 0 20px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.proj-descr-text-container {
+    margin: 25px 0 0 50px;
+}
+
+.proj-descr-text-normal {
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 0px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.proj-descr-text-big {
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+
+.proj-descr-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 46px;
+    background: #F8AA12;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
 .testimonies {
     width: 1620px;
-    height: 453px;
+    height: 453px;    
     background: #FFFFFF;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.16);
     border-radius: 15px;
@@ -427,6 +492,7 @@ a {
 .navigation-keys-and-reviews {
     width: 1480px;
     margin-left: 30px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
