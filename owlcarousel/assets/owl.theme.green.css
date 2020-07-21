@@ -23,8 +23,7 @@
   border-radius: 3px;
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover {
-  background: #519500;
+.owl-theme .owl-nav [class*='owl-']:hover {  
   color: #FFF;
   text-decoration: none;
 }
@@ -64,4 +63,20 @@
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #519500;
   /*#4DC7A0;*/
+}
+
+.owl-theme .owl-dot:focus, button:focus {
+  outline: none;
+ }
+
+.owl-nav button.owl-prev {
+    position: absolute;
+    left: -50px;
+    top: 35%;
+}
+
+.owl-nav button.owl-next {
+  position: absolute;
+  right: -50px;
+  top: 35%;
 }

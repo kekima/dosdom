@@ -425,29 +425,21 @@ a {
 }
 
 .navigation-keys-and-reviews {
-    margin-left: 80px;
-    width: 1450px; /*1428*/
+    width: 1360px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.circle-left {
-    background-image: url(img/arrowleft.png);
-}
-
-.circle-right {
-    background-image: url(img/arrowright.png);
-}
-
 .review-item-desc-and-button {
-    margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .review-item {
+    /*width: 1370px;*/
     height: 310px;
     display: flex;
     align-items: center;
@@ -455,7 +447,7 @@ a {
 }
 
 .review-photo-place {
-    background-image: url(img/photo1.png);
+    /*background-image: url(img/photo1.png);*/
     width: 244px;
     height: 244px;
 }
