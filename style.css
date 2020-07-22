@@ -208,11 +208,11 @@ a {
 }
 
 .project-types {
-    margin-left: 60px;
-    margin: 0 auto;
-    width: 1110px;
-    display: flex;
-    justify-content: center;
+    /*margin-left: 60px;*/
+    /*margin: 0 auto;*/
+    width: 1220px; /*1110*/
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
 
 .project-option {
@@ -246,7 +246,8 @@ a {
 }
 
 .proj-slider-house-type-img {
-    
+    max-height: 120px;
+    object-fit: contain;
 }
 
 .project-type-area-text {

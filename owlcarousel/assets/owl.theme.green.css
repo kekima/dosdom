@@ -94,13 +94,10 @@ top: 30%;
 }
 
 /*
-.owl-one .owl-carousel .owl-item img {
-  max-height: 115px;
-  width: auto; 
- }
-*/
-/*
 .owl-one .owl-item, .owl-one .owl-stage {
    display: flex;
    justify-content: center;
  }*/
+ .project-option {
+  margin: 0 auto;
+  }
