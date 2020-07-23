@@ -71,13 +71,13 @@
 
 .owl-one .owl-nav button.owl-prev {
  position: absolute;
- left: -120px;
+ left: -100px;
  top: 30%;
 }
 
 .owl-one .owl-nav button.owl-next {
 position: absolute;
-right: -120px;
+right: -100px;
 top: 30%;
 }
 
