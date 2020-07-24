@@ -25,3 +25,22 @@ for (i = 0; i < modalButton.length; i++) {
     modal.style.display = "block";
   }
 }
+
+
+let projectOption = document.getElementsByClassName("project-option-trigger");
+let projectOptionDescr = document.getElementsByClassName("project-option-descr");
+
+projectOption[0].style.background = "#fff";
+projectOptionDescr[0].style.display = "flex";
+
+
+for (i = 0; i < projectOption.length; i++) {
+      //for (k = 0; k < projectOptionDescr.length; k++) {
+    projectOption[i].onclick = function () {
+    projectOptionDescr[i].style.display = "flex";
+   // }
+    
+  }
+}
+
+
