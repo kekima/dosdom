@@ -33,7 +33,19 @@ let projectOptionDescr = document.getElementsByClassName("project-option-descr")
 projectOption[0].style.background = "#fff";
 projectOptionDescr[0].style.display = "flex";
 
+function openDescr(descrNumber) {
 
+  for (i = 0; i < projectOption.length; i++) {
+      projectOptionDescr[i].style.display = "none";
+      projectOption[i].style.background = "none";
+    }
+
+  projectOptionDescr[descrNumber].style.display = "flex";
+  projectOption[descrNumber].style.background = "#fff";
+}
+
+
+/*
 for (i = 0; i < projectOption.length; i++) {
       //for (k = 0; k < projectOptionDescr.length; k++) {
     projectOption[i].onclick = function () {
@@ -42,5 +54,4 @@ for (i = 0; i < projectOption.length; i++) {
     
   }
 }
-
-
+*/
