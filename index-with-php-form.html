@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,15 +39,15 @@
     <main class="main-page">
 
         <div id="modal-box" class="modal">
-            <div class="modal-content">
-                <span class="modal-close">&times;</span>
-                <p class="modal-form-text">Закажите рассчёт проекта уже сегодня!</p>
-                <input class="modal-input-text" type="text" placeholder="Ваше имя">
-                <input class="modal-input-text" type="text" placeholder="Ваш телефон">
-                <a href="#" class="modal-button">
-                    Заказать бесплатный рассчёт сметы
-                </a>
-            </div>
+            <form method="post" action="sendform.php">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <p class="modal-form-text">Закажите рассчёт проекта уже сегодня!</p>
+                    <input class="modal-input-text" type="text" name="clientName" placeholder="Ваше имя">
+                    <input class="modal-input-text" type="text" name="clientPhone" placeholder="Ваш телефон">
+                    <input class="modal-button" type="submit" name="submit" value="Заказать бесплатный рассчёт сметы">
+                </div>
+            </form>
         </div>
 
         <div class="green-background">
@@ -243,7 +240,7 @@
                         </div>
                     </div>
 
-                    <div class="proj-descr-container project-option-descr"> 
+                    <div class="proj-descr-container project-option-descr">
                         <div class="proj-descr-img"><img class="proj-descr-img-pic" src="img/projslider/130.jpg"></div>
                         <div class="proj-descr-text-container">
 
@@ -406,8 +403,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -429,8 +426,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -450,8 +447,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -474,8 +471,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -496,8 +493,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -517,8 +514,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
@@ -544,8 +541,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="review-learnmore">    
-                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>                                
+                            <div class="review-learnmore">
+                                <div class="proj-review-button modal-button-trigger">Заказать звонок</div>
                             </div>
                         </div>
 
