@@ -2,11 +2,12 @@
 
 if(isset($_POST['submit'])) {
     $to = "vivisectivecarrot@gmail.com";
+    $from = "marcovkir@gmail.com";
     $name = $_POST['clientName'];
     $phone = $_POST['clientPhone'];
     $subject = "Заказ рассчёта проекта";
-    $message = $clientName . " " . " заинтересовван в рассчёте проекта, его телефон: " . $_POST['clientPhone'];
-    $header = "From:" . $name;
+    $message = $name . " " . " заинтересовван в рассчёте проекта, его телефон: " . $phone;
+    $header = "From:" . $from;
 
     mail($to,$subject,$message,$header);
     echo "Почта отправлена.";

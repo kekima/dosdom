@@ -890,6 +890,7 @@ a {
     height: 70px;
     background: #F8AA12;
     box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.05);
+    border: 0px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 24px;
@@ -899,7 +900,7 @@ a {
     margin-top: 50px;
 }
 
-.modal-button-trigger, .project-option-trigger  {
+.modal-button-trigger, .project-option-trigger, .modal-button:hover  {
     cursor: pointer;
 }
 
